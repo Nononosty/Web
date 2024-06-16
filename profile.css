@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main-container 
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile_img{
+    margin-bottom: 8%;
+    margin-right: -3%;
+}
+
+.profile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-size: large;
+    
+}
+.profile_name
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    background-color: #252425;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 10%;
+}
+
